@@ -1,14 +1,15 @@
 # Modern VHDL with twoproc
 ## 目的
-twoprocはVHDLの書き方のスタイルの一つです。これがどういうものかについては以下のページで解説されています。
+twoprocはVHDLのコーディングスタイルの一つです。これがどういうものかについては以下のページで解説されています。
 
-* [twoprocの書き方](http://wasabiz.hatenablog.com/entry/2015/03/18/173921)
 * [A Strucctured VHDL Design Method](https://www.google.co.jp/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwjkq8K9hO3JAhXBMKYKHWwtBtkQFggiMAE&url=http%3A%2F%2Fwww.gaisler.com%2Fdoc%2Fstructdes.pdf&usg=AFQjCNGRNWXkIDXbdBE28U5aTm8ACqi0uQ&sig2=dpdUOLqdFJtnLJxdazrWAQ)
+  - これが初出？
+* [twoprocの書き方](http://wasabiz.hatenablog.com/entry/2015/03/18/173921)
 
 twoprocの中心となるアイデアは
 
 * VHDLの書き方を制限することでVHDLの「闇」を極力避けるくる
-* 同期文だけでロジックを記述するようにすることでソフトウェアプログラマに馴染みのあるコードを書く/読む
+* 逐次実行文だけでロジックを記述するようにすることでソフトウェアプログラマに馴染みのあるコードを書く/読む
 * レコードを積極的に使うことでコードの見通しをよくする
 
 というものです。ここでは実際にtwoprocで書いたVHDLのコードを示し、「どういう理由でこういうコードになるのか」あるいは「どういう書き方ができるか」ということを説明していく予定です。
